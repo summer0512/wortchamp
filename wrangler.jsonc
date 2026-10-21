@@ -1,0 +1,19 @@
+{
+  "main": ".open-next/worker.js",
+  "name": "wortchamp",
+  "compatibility_date": "2025-03-25",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "kv_namespaces": [
+    {
+      "binding": "WORDLISTS",
+      "id": "2dc94d28ae6d411dbdab74234e512101",  // WORTCHAMP (WORT) Namespace ID
+      "preview_id": "2dc94d28ae6d411dbdab74234e512101"  // 可选，预览用
+    }
+  ]
+}

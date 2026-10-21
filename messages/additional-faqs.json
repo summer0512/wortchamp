@@ -1,0 +1,20 @@
+{
+  "additionalFAQs": [
+    {
+      "question": "Um wie viel Uhr erscheint das Tageswort?",
+      "answer": "Das Tageswort wird jeden Tag um 00:00 Uhr (Mitternacht) deutscher Zeit aktualisiert. Sobald Mitternacht erreicht ist, steht das neue Tageswort für alle Spieler bereit."
+    },
+    {
+      "question": "Kann ich den Endlos-Modus kostenlos spielen?",
+      "answer": "Ja. Der Endlos-Modus ist komplett kostenlos und unbegrenzt. Du kannst so viele Runden spielen, wie du möchtest – ideal, um vor dem Tageswort zu üben."
+    },
+    {
+      "question": "Wie funktioniert der Endlos-Modus?",
+      "answer": "Im Endlos-Modus kannst du ohne Pause spielen. Jede Runde hat ein anderes zufälliges Wort. Es gibt kein Tageslimit – anders als beim Tageswort, das nur einmal pro Tag verfügbar ist."
+    },
+    {
+      "question": "Was ist besser: Tageswort oder Endlos-Modus?",
+      "answer": "Beides hat seinen Reiz. Das Tageswort ist die offizielle tägliche Herausforderung für alle Spieler. Der Endlos-Modus eignet sich perfekt zum Üben und für schnelle Runden. Viele spielen erst das Tageswort und trainieren danach im Endlos-Modus."
+    }
+  ]
+}

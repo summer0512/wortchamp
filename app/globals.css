@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-[hsl(var(--border))];
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .rotateX-0 {
+    transform: rotateX(0deg);
+  }
+  .rotateX-90 {
+    transform: rotateX(90deg);
+  }
+  
+  @keyframes bgExpand {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .animate-bg-expand {
+    animation: bgExpand 0.6s ease-out forwards;
+  }
+  
+  /* 响应式键盘按键尺寸 */
+  .keyboard-key {
+    width: var(--key-width);
+    height: 48px;
+  }
+  
+  @media (min-width: 768px) {
+    .keyboard-key {
+      width: var(--key-width-md);
+      height: 52px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .keyboard-key {
+      width: var(--key-width-lg);
+      height: 56px;
+    }
+  }
+
+  /* 防止 Cell 组件出现文本光标 */
+  .grid-cell {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default !important;
+  }
+
+  /* 游戏区域默认不显示文本光标 */
+  .game-container {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+  }
+
+  /* 但是按钮和可交互元素仍然显示指针光标 */
+  .game-container button {
+    cursor: pointer !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* 输入框仍然显示文本光标 */
+  .game-container input {
+    cursor: text !important;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+  }
+
+  .loading-bar-animation {
+    animation: loading-bar-slide 1.25s ease-in-out infinite;
+    transform: translateX(-100%);
+  }
+
+  @keyframes loading-bar-slide {
+    0% {
+      transform: translateX(-80%);
+      opacity: 0.4;
+    }
+    50% {
+      transform: translateX(40%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(120%);
+      opacity: 0.4;
+    }
+  }
+}

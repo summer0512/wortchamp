@@ -1,0 +1,1 @@
+pnpm opennextjs-cloudflare cache-purge

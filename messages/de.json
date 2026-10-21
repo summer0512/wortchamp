@@ -1,0 +1,516 @@
+{
+  "HomePage": {
+    "title": "Wordle Deutsch | Wortchamp – tägliches Wort & Endlos-Modus",
+    "description": "Spiele Wordle Deutsch auf Wortchamp. Tägliches Wort, Endlos-Modus, Umlaut-Option, Challenges und Statistiken.",
+    "keywords": "wordle deutsch, wordle deutsch spielen, wordle deutsch heute, wordle deutsch kostenlos, wordle unendlich, wordle hilfe deutsch, wordle deutsch 5 buchstaben, wortchamp",
+    "h1": "Wordle Deutsch spielen – Wortchamp",
+    "gameIntro": {
+      "title": "Was ist Wortchamp?",
+      "description": "Wortchamp ist dein Wordle auf Deutsch. Täglich ein neues Wort, Endlos-Modus für Training, Challenges zum Teilen und eine Wortsuche für knifflige Endspiele.",
+      "featureHighlights": [
+        {
+          "title": "Tägliches Wort",
+          "description": "Jeden Tag dasselbe Wort für alle Spieler – fair, schnell, übersichtlich.",
+          "keyword": "wordle deutsch heute"
+        },
+        {
+          "title": "Endlos-Modus",
+          "description": "Unbegrenzte Runden mit zufälligen Wörtern – ideal zum Üben.",
+          "keyword": "wordle unendlich"
+        },
+        {
+          "title": "Umlaute & ß",
+          "description": "Ohne Umlaute: Ä/Ö/Ü zählen wie A/O/U. Mit Umlauten sind Ä/Ö/Ü eigene Buchstaben. ß ist im DE/AT-Modus eigen, im CH-Modus deaktiviert.",
+          "keyword": "ä ö ü ß"
+        },
+        {
+          "title": "Wordle Hilfe",
+          "description": "Wortsuche für 3–11 Buchstaben, inklusive Positions- und Ausschlussfilter.",
+          "keyword": "wordle hilfe"
+        },
+        {
+          "title": "Statistiken",
+          "description": "Behalte Siege, Serien und Verteilung im Blick.",
+          "keyword": "wordle statistik"
+        },
+        {
+          "title": "Challenges",
+          "description": "Erstelle eigene Rätsel und teile sie mit Freunden.",
+          "keyword": "wordle challenge"
+        }
+      ]
+    },
+    "howToPlay": {
+      "title": "So spielst du Wordle Deutsch",
+      "subtitle": "Kurz erklärt: 4 Schritte, 6 Versuche, klare Hinweise.",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Starte mit einem Wort",
+          "description": "Tippe ein gültiges Wort mit der richtigen Länge."
+        },
+        {
+          "number": "2",
+          "title": "Farben lesen",
+          "description": "🟩 Richtiger Buchstabe, richtige Stelle | 🟨 Buchstabe im Wort, falsche Stelle | ⬛ Buchstabe kommt nicht vor"
+        },
+        {
+          "number": "3",
+          "title": "Umlaute berücksichtigen",
+          "description": "Ohne Umlaute zählen Ä/Ö/Ü wie A/O/U. Im Umlaut-Modus sind Ä/Ö/Ü eigene Buchstaben. ß ist im DE/AT-Modus eigen, im CH-Modus deaktiviert."
+        },
+        {
+          "number": "4",
+          "title": "In 6 Versuchen lösen",
+          "description": "Nutze die Hinweise, um das Wort in sechs Zügen zu erraten."
+        }
+      ],
+      "tips": {
+        "title": "Schnelle Tipps",
+        "list": [
+          "Starte mit Wörtern, die viele Vokale abdecken.",
+          "Teste früh häufige Konsonanten wie R, S, T, N, L.",
+          "Gelb heißt: Buchstabe im Wort, aber falsche Position.",
+          "Nutze die Wortsuche, wenn nur noch 1–2 Plätze fehlen."
+        ]
+      }
+    },
+    "faq": {
+      "title": "Häufige Fragen zu Wordle Deutsch",
+      "subtitle": "Alles Wichtige zu Tageswort, Endlos-Modus und Umlauten.",
+      "questions": [
+        {
+          "question": "Was ist der Unterschied zwischen Tageswort und Endlos-Modus?",
+          "answer": "Das Tageswort ist täglich gleich für alle. Im Endlos-Modus spielst du unbegrenzt zufällige Wörter."
+        },
+        {
+          "question": "Ist Wortchamp kostenlos?",
+          "answer": "Ja, alle Modi und die Wortsuche sind kostenlos nutzbar."
+        },
+        {
+          "question": "Wie funktionieren Umlaute?",
+          "answer": "Ohne Umlaute zählen Ä/Ö/Ü wie A/O/U. Im Umlaut-Modus sind Ä/Ö/Ü eigene Buchstaben. Du kannst jederzeit umschalten. ß ist im DE/AT-Modus ein eigenes Zeichen, im CH-Modus deaktiviert."
+        },
+        {
+          "question": "Gibt es Wordle Deutsch für 3–11 Buchstaben?",
+          "answer": "Ja, Wortchamp unterstützt Längen von 3 bis 11 Buchstaben."
+        },
+        {
+          "question": "Kann ich eigene Rätsel erstellen?",
+          "answer": "Ja, im Challenge-Modus kannst du ein Wort wählen und den Link teilen."
+        },
+        {
+          "question": "Wie teile ich mein Ergebnis?",
+          "answer": "Nach dem Spiel kannst du das Ergebnis als Emoji-Grid teilen."
+        },
+        {
+          "question": "Gibt es eine Wordle Hilfe?",
+          "answer": "Ja, die Wortsuche filtert nach Positionen, Pflicht- und Ausschlussbuchstaben."
+        },
+        {
+          "question": "Wann wechselt das Tageswort?",
+          "answer": "Das Tageswort wechselt täglich um 00:00 Uhr (Mitteleuropäische Zeit)."
+        },
+        {
+          "question": "Gibt es eine Wordle Deutsch Lösung heute?",
+          "answer": "Wir veröffentlichen keine Lösungen oder Spoiler. Wenn du festhängst, nutze die Wordle Hilfe, um Hinweise zu filtern, ohne das Tageswort zu verraten."
+        },
+        {
+          "question": "Ist Wordle Deutsch kostenlos online spielbar?",
+          "answer": "Ja, Wortchamp ist kostenlos. Tageswort, Endlos-Modus und Wortsuche stehen ohne Bezahlhürde bereit."
+        },
+        {
+          "question": "Ist Wortchamp das Wordle von Spiegel, SZ oder T-Online?",
+          "answer": "Nein. Wortchamp ist ein unabhängiges Wordle Deutsch. Wenn du nach \"Wordle Spiegel\", \"SZ Wordle\", \"T-Online Wordle\" oder \"wordle.at\" suchst, findest du hier eine freie Alternative mit gleichen Spielprinzipien."
+        },
+        {
+          "question": "Gibt es einen Wordle Solver oder Helper auf Deutsch?",
+          "answer": "Ja. Die Wordle Hilfe von Wortchamp funktioniert wie ein Solver: Du filterst Positionen, Pflicht- und Ausschlussbuchstaben."
+        }
+      ]
+    }
+  },
+  "Footer": {
+    "copyright": "Wortchamp © 2026",
+    "source": "Wortliste basiert auf Wiktionary-Daten.",
+    "guide": "Wordle-Anleitung",
+    "about": "Über uns",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen"
+  },
+  "WordFinderPage": {
+    "meta": {
+      "title": "Wordle Hilfe – Wortsuche für 5 Buchstaben | Wortchamp",
+      "description": "Finde Wörter mit 3–11 Buchstaben für Wordle Deutsch. Filtere Positionen, Pflicht- und Ausschlussbuchstaben.",
+      "keywords": "wordle hilfe deutsch, wordle solver deutsch, wordle helper deutsch, wortsuche wordle, wordle 5 buchstaben, wort mit 5 buchstaben, wörter mit 5 buchstaben"
+    },
+    "breadcrumbLabel": "Wordle Hilfe",
+    "topNav": {
+      "home": "Start",
+      "game": "Spiel {wordLength} Buchstaben"
+    },
+    "shareTitle": "Wordle Hilfe {wordLength} Buchstaben",
+    "shareDescription": "Filtere Buchstaben und finde Lösungen schneller.",
+    "shareButton": "Teilen",
+    "shareCopied": "Link kopiert",
+    "shareError": "Teilen fehlgeschlagen",
+    "badge": "Wordle Hilfe",
+    "heroTitle": "Wortsuche für Wordle Deutsch",
+    "heroDescription": "Finde passende Wörter mit {wordLength} Buchstaben – schnell, klar, kostenlos. Ideal als Wordle Solver/Helper.",
+    "heroHelper": "Kombiniere Positionen, Pflichtbuchstaben und Ausschlüsse, um die Liste einzugrenzen.",
+    "filtersTitle": "Filter für {wordLength} Buchstaben",
+    "filtersDescription": "Lege feste Positionen, Pflicht- und Ausschlussbuchstaben fest.",
+    "accentToggle": {
+      "off": "ohne Umlaute",
+      "on": "mit Umlauten",
+      "helper": "Ohne Umlaute: Ä/Ö/Ü zählen wie A/O/U. Mit Umlauten: Ä/Ö/Ü sind eigene Buchstaben. ß ist im DE/AT-Modus eigen, im CH-Modus deaktiviert."
+    },
+    "resetButton": "Zurücksetzen",
+    "resetHelper": "Noch keine Filter gesetzt.",
+    "positionSectionTitle": "Positionen",
+    "positionSectionDescription": "Setze grüne Buchstaben an die richtige Stelle.",
+    "positionBadge": "{wordLength} Buchstaben",
+    "positionInputAria": "Position {position}",
+    "includeSectionTitle": "Enthalten",
+    "includeSectionDescription": "Buchstaben, die im Wort vorkommen müssen.",
+    "includePlaceholder": "Buchstaben hinzufügen",
+    "excludeSectionTitle": "Ausschließen",
+    "excludeSectionDescription": "Buchstaben, die nicht vorkommen dürfen.",
+    "excludePlaceholder": "Buchstaben ausschließen",
+    "resultsTitle": "Ergebnisse",
+    "resultsDescription": "Gefilterte Wörter passend zu deinen Hinweisen.",
+    "noResultsDescription": "Keine passenden Wörter. Passe deine Filter an.",
+    "tipsTitle": "Tipps zur Wortsuche",
+    "tipsDescription": "So nutzt du die Filter am effektivsten.",
+    "tipsList": [
+      "Beginne mit Positionsfiltern für grüne Buchstaben.",
+      "Nutze Pflichtbuchstaben für gelbe Hinweise.",
+      "Schließe graue Buchstaben konsequent aus."
+    ],
+    "tipsFooter": "Im Endspiel spart die Wortsuche wertvolle Versuche.",
+    "seoSection": {
+      "title": "Wordle Hilfe: Wörter schneller finden",
+      "subtitle": "Mit der Wortsuche filterst du valide Wörter nach deinen Hinweisen.",
+      "paragraphs": [
+        "Die Wortsuche enthält den vollständigen Wortschatz für Wordle Deutsch.",
+        "Setze grüne Buchstaben an feste Positionen und nutze gelbe Hinweise als Pflichtbuchstaben.",
+        "Im Umlaut-Modus kannst du Ä, Ö, Ü und ß (DE/AT) gezielt testen."
+      ],
+      "highlights": [
+        {
+          "title": "Positionsfilter",
+          "description": "Fixiere grüne Buchstaben, um schnelle Treffer zu erhalten."
+        },
+        {
+          "title": "Pflicht & Ausschluss",
+          "description": "Reduziere die Liste mit gelben und grauen Hinweisen."
+        },
+        {
+          "title": "Umlaut-Modus",
+          "description": "Teste Ä, Ö, Ü und ß (DE/AT) separat oder ohne Umlaute."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Ist die Wortsuche kostenlos?",
+          "answer": "Ja, die Wortsuche ist kostenlos und unbegrenzt verfügbar."
+        },
+        {
+          "question": "Funktioniert sie für 3–11 Buchstaben?",
+          "answer": "Ja, du kannst jede Wortlänge zwischen 3 und 11 Buchstaben filtern."
+        },
+        {
+          "question": "Gibt es einen Umlaut-Modus?",
+          "answer": "Ja, du kannst Umlaute ein- oder ausschalten."
+        }
+      ]
+    }
+  },
+  "GuidePage": {
+    "meta": {
+      "title": "Wordle Anleitung | Wortchamp",
+      "description": "Strategien, Tipps und Hilfen für Wordle Deutsch – inkl. Umlauten, Endlos-Modus und Wortsuche.",
+      "keywords": "wordle anleitung, wordle deutsch tipps, wordle strategie, wordle hilfe deutsch, wortsuche"
+    },
+    "hero": {
+      "title": "Wordle Anleitung",
+      "subtitle": "Strategien, Starter-Sets und Endspiel-Tipps für Wordle Deutsch",
+      "content": "Hier findest du praxisnahe Starter-Sets, Muster-Strategien und Endspiel-Tipps für jede Wortlänge von 3 bis 11 Buchstaben.",
+      "cta": "Jetzt spielen"
+    },
+    "intro": {
+      "title": "Überblick",
+      "description": "Wortchamp ist Wordle auf Deutsch – mit Tageswort, Endlos-Modus, Umlaut-Option und Wortsuche.",
+      "items": [
+        "Tägliches Wort für alle Spieler",
+        "Endlos-Modus zum Üben",
+        "Umlaut-Modus für Ä, Ö, Ü als eigene Buchstaben (DE/AT inkl. ẞ, CH ohne ẞ)",
+        "Eigene Guides für jede Wortlänge von 3 bis 11 Buchstaben"
+      ]
+    },
+    "strategies": {
+      "title": "Strategien",
+      "description": "So findest du schneller die Lösung.",
+      "items": [
+        "Starte mit 2-3 Wörtern als Set und decke zuerst Vokale plus N/R/S/T/L ab.",
+        "Wenn wenige Vokale bestätigt sind, teste früh Doppelbuchstaben (NN, LL, SS).",
+        "Sobald 2-3 Buchstaben sicher sind, arbeite mit Mustern wie -EN, -ER, GE-, VER-."
+      ]
+    },
+    "modes": {
+      "title": "Spielmodi",
+      "description": "Tageswort, Endlos-Modus und Challenges.",
+      "items": [
+        "Tageswort: eine Lösung für alle, täglich neu.",
+        "Endlos-Modus: unbegrenztes Training.",
+        "Challenge: eigenes Wort erstellen und teilen."
+      ]
+    },
+    "challenges": {
+      "title": "Challenges",
+      "description": "Teile eigene Rätsel mit Freunden.",
+      "items": [
+        "Wähle ein Wort mit der richtigen Länge.",
+        "Erstelle einen Link und teile ihn.",
+        "Fortschritt wird lokal gespeichert."
+      ]
+    },
+    "stats": {
+      "title": "Statistiken",
+      "description": "Behalte Serien, Siege und Versuchsverteilung im Blick.",
+      "items": [
+        "Gewinnquote und Gesamtspiele",
+        "Aktuelle und beste Serie",
+        "Verteilung der Versuche"
+      ],
+      "cta": "Statistiken öffnen",
+      "ctaDescription": "Nutze das Statistik-Icon oben rechts im Spiel."
+    },
+    "resources": {
+      "title": "Ressourcen",
+      "description": "Nützliche Links für dein Spiel.",
+      "items": [
+        "Wortsuche für knifflige Endspiele",
+        "Längenguides mit Starter-Sets (3-11 Buchstaben)",
+        "Mode-spezifische Tipps für ohne/mit Umlauten"
+      ]
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "description": "Kurze Antworten zu Wordle Deutsch.",
+      "entries": [
+        {
+          "question": "Wie oft wechselt das Tageswort?",
+          "answer": "Einmal täglich um 00:00 Uhr (MEZ/CEST)."
+        },
+        {
+          "question": "Kann ich ohne Umlaute spielen?",
+          "answer": "Ja, du kannst den Umlaut-Modus jederzeit ausschalten."
+        },
+        {
+          "question": "Gibt es ein Limit im Endlos-Modus?",
+          "answer": "Nein, du kannst unbegrenzt spielen."
+        }
+      ]
+    }
+  },
+  "PrivacyPage": {
+    "meta": {
+      "title": "Datenschutz | Wortchamp",
+      "description": "Datenschutzhinweise zu Wortchamp, Cookies und Statistiken.",
+      "keywords": "datenschutz wortchamp, cookies, wordle deutsch"
+    },
+    "heading": "Datenschutzerklärung",
+    "lastUpdated": "Zuletzt aktualisiert: 15. Februar 2026",
+    "intro": "Diese Datenschutzerklärung beschreibt, wie Wortchamp Daten verarbeitet und schützt.",
+    "sections": {
+      "dataCollection": {
+        "title": "Erhobene Daten",
+        "paragraphs": [
+          "Wortchamp speichert lokale Spielstatistiken im Browser.",
+          "Es werden keine sensiblen personenbezogenen Daten verlangt."
+        ],
+        "items": [
+          "Spielstatistiken (lokal)",
+          "Geräteinformationen im Browser",
+          "Nutzungsdaten zur Stabilität",
+          "Kontaktangaben bei E-Mail-Anfragen"
+        ]
+      },
+      "adsense": {
+        "title": "Werbung",
+        "paragraphs": [
+          "Derzeit wird keine personalisierte Werbung ausgeliefert.",
+          "Sollte Werbung eingebunden werden, informieren wir transparent."
+        ],
+        "items": [
+          "Keine Weitergabe sensibler Daten",
+          "Transparente Hinweise",
+          "Opt-out-Möglichkeiten"
+        ]
+      },
+      "cookies": {
+        "title": "Cookies",
+        "paragraphs": [
+          "Wir nutzen essentielle Cookies für Funktion und Komfort.",
+          "Optionale Cookies werden nur nach Zustimmung aktiviert."
+        ],
+        "items": [
+          "Einstellungen speichern",
+          "Statistiken lokal halten",
+          "Technische Stabilität"
+        ]
+      },
+      "thirdParties": {
+        "title": "Drittanbieter",
+        "paragraphs": [
+          "Externe Dienste werden nur bei Bedarf integriert.",
+          "Wir prüfen regelmäßig deren Datenschutzstandards."
+        ]
+      },
+      "rights": {
+        "title": "Deine Rechte",
+        "paragraphs": [
+          "Du hast Rechte auf Auskunft, Berichtigung und Löschung."
+        ],
+        "items": [
+          "Auskunft anfordern",
+          "Daten berichtigen",
+          "Daten löschen",
+          "Einschränkung der Verarbeitung",
+          "Widerspruch gegen Verarbeitung",
+          "Datenübertragbarkeit"
+        ]
+      },
+      "security": {
+        "title": "Sicherheit",
+        "paragraphs": [
+          "Wir schützen Daten durch technische und organisatorische Maßnahmen.",
+          "Lokale Spielstatistiken verbleiben im Browser."
+        ]
+      },
+      "children": {
+        "title": "Kinder",
+        "paragraphs": [
+          "Das Angebot richtet sich an Nutzer ab 13 Jahren."
+        ]
+      },
+      "changes": {
+        "title": "Änderungen",
+        "paragraphs": [
+          "Diese Erklärung kann aktualisiert werden."
+        ]
+      }
+    },
+    "contact": {
+      "title": "Kontakt",
+      "description": "Bei Fragen zum Datenschutz schreibe uns.",
+      "emailLabel": "E-Mail:",
+      "email": "hallo@wortchamp.com"
+    }
+  },
+  "TermsPage": {
+    "meta": {
+      "title": "Nutzungsbedingungen | Wortchamp",
+      "description": "Bedingungen für die Nutzung von Wortchamp.",
+      "keywords": "nutzungsbedingungen, wordle deutsch"
+    },
+    "heading": "Nutzungsbedingungen",
+    "lastUpdated": "Zuletzt aktualisiert: 15. Februar 2026",
+    "intro": "Diese Bedingungen regeln die Nutzung von Wortchamp.",
+    "acceptance": "Mit der Nutzung stimmst du diesen Bedingungen zu.",
+    "sections": {
+      "useOfService": {
+        "title": "Nutzung des Dienstes",
+        "paragraphs": [
+          "Wortchamp bietet ein kostenloses Wortspiel und begleitende Inhalte.",
+          "Der Zugriff erfolgt über den Browser, ohne Garantie auf ständige Verfügbarkeit."
+        ]
+      },
+      "userResponsibilities": {
+        "title": "Pflichten der Nutzer",
+        "paragraphs": [
+          "Du nutzt den Dienst verantwortungsvoll.",
+          "Missbrauch oder Störungen sind untersagt."
+        ],
+        "items": [
+          "Kein automatisiertes Scraping",
+          "Kein Missbrauch der Challenge-Links",
+          "Keine Manipulation der Statistiken",
+          "Respektvoller Umgang"
+        ]
+      },
+      "accountAndData": {
+        "title": "Konten und Daten",
+        "paragraphs": [
+          "Es ist kein Nutzerkonto erforderlich.",
+          "Spielstatistiken werden lokal im Browser gespeichert."
+        ]
+      },
+      "adsense": {
+        "title": "Werbung",
+        "paragraphs": [
+          "Der Dienst kann künftig Werbung enthalten.",
+          "Etwaige Änderungen werden transparent kommuniziert."
+        ],
+        "items": [
+          "Keine Weitergabe sensibler Daten",
+          "Transparente Hinweise",
+          "Opt-out-Möglichkeiten"
+        ]
+      },
+      "intellectualProperty": {
+        "title": "Geistiges Eigentum",
+        "paragraphs": [
+          "Alle Inhalte und Designs sind geschützt.",
+          "Vervielfältigung nur mit ausdrücklicher Erlaubnis."
+        ]
+      },
+      "acceptableUse": {
+        "title": "Zulässige Nutzung",
+        "paragraphs": [
+          "Bitte nutze Wortchamp fair und im vorgesehenen Rahmen."
+        ],
+        "items": [
+          "Keine Angriffe auf die Infrastruktur",
+          "Kein Missbrauch von Kontaktkanälen",
+          "Kein Upload schädlicher Inhalte",
+          "Keine Störung anderer Nutzer",
+          "Kein Umgehen technischer Schutzmaßnahmen"
+        ]
+      },
+      "disclaimer": {
+        "title": "Haftungsausschluss",
+        "paragraphs": [
+          "Wortchamp wird ohne Gewähr bereitgestellt.",
+          "Wir übernehmen keine Garantie für Fehlerfreiheit."
+        ]
+      },
+      "liability": {
+        "title": "Haftung",
+        "paragraphs": [
+          "Die Nutzung erfolgt auf eigenes Risiko.",
+          "Für indirekte Schäden wird keine Haftung übernommen."
+        ]
+      },
+      "thirdPartyLinks": {
+        "title": "Links zu Drittseiten",
+        "paragraphs": [
+          "Externe Links liegen außerhalb unseres Einflusses."
+        ]
+      },
+      "changes": {
+        "title": "Änderungen",
+        "paragraphs": [
+          "Diese Bedingungen können aktualisiert werden."
+        ]
+      }
+    },
+    "contact": {
+      "title": "Kontakt",
+      "description": "Bei Fragen zu den Nutzungsbedingungen schreibe uns.",
+      "emailLabel": "E-Mail:",
+      "email": "hallo@wortchamp.com"
+    }
+  }
+}
