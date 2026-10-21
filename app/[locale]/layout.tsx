@@ -6,6 +6,8 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { ThemeProvider } from "@/components/theme-provider";
 import { createSiteStructuredData } from "@/lib/seo";
+import { ProductionScripts } from "@/components/production-scripts";
+import { AdsterraDesktopRails } from "@/components/ads/adsterra-desktop-rails";
 import "../globals.css";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL?.trim() || "https://wortchamp.com";
@@ -48,6 +50,8 @@ export default async function RootLayout(
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <>
+            <ProductionScripts />
+            <AdsterraDesktopRails />
             <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: siteStructuredDataJson }} />
           </>

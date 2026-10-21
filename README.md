@@ -42,3 +42,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 2. This generates `data/<length>.txt` and `data/answers/<length>.txt` for 3–11 letters.
 3. Run `pnpm generate:wordlists` to build the TypeScript wordlists.
 4. Run `pnpm wordlists:browser` to build the browser bundles.
+
+
+## Analytics and advertising
+
+`lib/site-scripts.ts` controls Google Analytics and the three Adsterra formats independently. Real scripts load only in a production build on `wortchamp.com`. Development and preview hosts load no real ads or GA; eligible desktop routes show banner placeholders. AdSense remains disabled.
+
+Following termo-jogo, only game and word-finder routes show the side banners: 160×300 on the left and 160×600 on the right. They mount on desktops at least 1440px wide with a mouse/trackpad; mobile/touch devices mount no banner iframes. The Social Bar is hidden on mobile game/finder routes (widths up to 768px) and is available on other production routes. GA is available on all production devices.
+
+The supplied Popunder script is loaded only by a new-game action after at least two completed rounds, once per tab session and no more than once every 24 hours. Restoring saved finished games, abandoned rounds, development, and preview environments do not count as completed ad rounds. Storage restrictions fall back to in-memory counts.
