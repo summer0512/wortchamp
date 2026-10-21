@@ -7,20 +7,22 @@ import { WORD_LENGTH_VARIANTS, getGuidePath } from '@/lib/length-pages';
 export default function Footer() {
   const t = useTranslations('Footer');
 
-  // const partnerLinks = [
-  //   { name: 'Morse Code Kit', href: 'https://morsecodekit.com/', follow: true },
-  //   { name: 'PrintableGen', href: 'https://printablegen.com/', follow: true },
-  //   { name: 'Generate Org Chart', href: 'https://generateorgchart.com/', follow: true },
-  //   { name: 'Size Chart Kit', href: 'https://sizechartkit.com/', follow: true },
-  //   { name: 'Device Test Tools', href: 'https://devicetesttools.com/', follow: true },
-  //   { name: 'IBAN Tools', href: 'https://ibantools.net/', follow: true },
-  //   { name: 'Randlyx', href: 'https://randlyx.com/', follow: true },
-  //   { name: 'Subnautica Hub', href: 'https://subnauticahub.com/', follow: true },
-  //   { name: 'Test Score Hub', href: 'https://testscorehub.com/', follow: true },
-  //   { name: 'EasyPdfNow', href: 'https://easypdfnow.com/', follow: true },
-  //   { name: 'Solarpunk Hub', href: 'https://solarpunkhub.com/', follow: true },
-  //   { name: "GAG2Hub", href: "https://gag2hub.com/", follow: true },
-  // ];
+  const partnerLinks = [
+    // { name: 'Morse Code Kit', href: 'https://morsecodekit.com/', follow: true },
+    // { name: 'PrintableGen', href: 'https://printablegen.com/', follow: true },
+    // { name: 'Generate Org Chart', href: 'https://generateorgchart.com/', follow: true },
+    // { name: 'Size Chart Kit', href: 'https://sizechartkit.com/', follow: true },
+    // { name: 'Device Test Tools', href: 'https://devicetesttools.com/', follow: true },
+    // { name: 'IBAN Tools', href: 'https://ibantools.net/', follow: true },
+    // { name: 'Randlyx', href: 'https://randlyx.com/', follow: true },
+    // { name: 'Subnautica Hub', href: 'https://subnauticahub.com/', follow: true },
+    // { name: 'Test Score Hub', href: 'https://testscorehub.com/', follow: true },
+    // { name: 'EasyPdfNow', href: 'https://easypdfnow.com/', follow: true },
+    // { name: 'Solarpunk Hub', href: 'https://solarpunkhub.com/', follow: true },
+    // { name: "GAG2Hub", href: "https://gag2hub.com/", follow: true },
+    { name: 'SudokuAgora', href: 'https://sudokuagora.com/', follow: true },
+    { name: 'SudokuDefi', href: 'https://sudokudefi.com/', follow: true },
+  ];
 
   return (
     <footer className="border-t border-gray-200 py-6">
@@ -54,7 +56,7 @@ export default function Footer() {
               {t('terms')}
             </Link>
           </div>
-          {/* <div className="flex flex-wrap items-center justify-center gap-3 text-sm">
+          <div className="flex flex-wrap items-center justify-center gap-3 text-sm">
             <span className="text-gray-600">Empfohlene Links:</span>
             {partnerLinks.map((item) => (
               <a
@@ -67,7 +69,7 @@ export default function Footer() {
                 {item.name}
               </a>
             ))}
-          </div> */}
+          </div>
           <div className="flex flex-wrap justify-center gap-2 text-xs text-gray-500">
             {WORD_LENGTH_VARIANTS.map((length) => (
               <Link
