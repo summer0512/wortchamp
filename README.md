@@ -50,4 +50,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 Following termo-jogo, only game and word-finder routes show the side banners: 160×300 on the left and 160×600 on the right. They mount on desktops at least 1440px wide with a mouse/trackpad; mobile/touch devices mount no banner iframes. The Social Bar is hidden on mobile game/finder routes (widths up to 768px) and is available on other production routes. GA is available on all production devices.
 
-The supplied Popunder script is loaded only by a new-game action after at least two completed rounds, once per tab session and no more than once every 24 hours. Restoring saved finished games, abandoned rounds, development, and preview environments do not count as completed ad rounds. Storage restrictions fall back to in-memory counts.
+The supplied Popunder script is loaded only by a new-game action after the first completed round, once per tab session and no more than once every 24 hours. Restoring saved finished games, abandoned rounds, development, and preview environments do not count as completed ad rounds. Storage restrictions fall back to in-memory counts.

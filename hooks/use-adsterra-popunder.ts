@@ -25,7 +25,7 @@ export function useAdsterraPopunder() {
     try { window[storage].setItem(key, String(value)); } catch { /* Optional storage. */ }
   }, []);
   const eligible = useCallback(() => {
-    return read("localStorage", ROUNDS_KEY) >= 2 &&
+    return read("localStorage", ROUNDS_KEY) >= 1 &&
       read("sessionStorage", SESSION_KEY) < 1 &&
       (read("localStorage", LAST_SHOWN_KEY) === 0 || Date.now() - read("localStorage", LAST_SHOWN_KEY) >= COOLDOWN_MS);
   }, [read]);
