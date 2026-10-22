@@ -23,7 +23,7 @@ export function AdsterraDesktopRails() {
   const pathname = usePathname();
   if (!SITE_SCRIPTS.adsterraBanners || !desktop || !isGameOrFinderPath(pathname ?? "/")) return null;
 
-  return <div className="pointer-events-none fixed inset-x-0 top-[120px] z-10 print:hidden">
+  return <div className="pointer-events-none fixed inset-x-0 top-[20px] z-10 print:hidden">
     <div className="pointer-events-auto absolute right-[calc(50%+532px)] top-0"><Banner placement="left" production={production} /></div>
     <div className="pointer-events-auto absolute left-[calc(50%+532px)] top-0"><Banner placement="right" production={production} /></div>
   </div>;
