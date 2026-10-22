@@ -39,6 +39,7 @@ import {
   detectRegionFromClient,
   normalizeRegionMode,
 } from "@/lib/region";
+import { useAdsterraPopunder } from "@/hooks/use-adsterra-popunder";
 import { getBerlinDateString } from "@/lib/time";
 
 type GameMode = "daily" | "infinite" | "challenge";
@@ -171,6 +172,7 @@ function Game({
   const [isStatsModalOpen, setIsStatsModalOpen] = useState(false);
   const [infiniteGameId, setInfiniteGameId] = useState<string>(() => createInfiniteGameId());
   const initialConfigRef = useRef(initialConfigKey);
+  const { recordCompletedRound, triggerPendingPopunder, resetPendingPopunder } = useAdsterraPopunder();
 
   const wordLength = initialLength;
   const [accentMode, setAccentMode] = useState<AccentMode>(initialAccent);
@@ -277,6 +279,7 @@ function Game({
         }
       }
 
+    resetPendingPopunder();
     setCurrentSolution(state.solution);
     setGuesses(state.guesses ?? []);
     setCurrentGuess(state.currentGuess ?? "");
@@ -287,7 +290,7 @@ function Game({
       setShowConfetti(false);
       setRevealingRowIndex(undefined);
     },
-    [],
+    [resetPendingPopunder],
   );
 
   const restoreState = useCallback((targetMode: GameMode, solution: string, activeSettings: WordSettings) => {
@@ -756,6 +759,11 @@ function Game({
     setCurrentGuess("");
 
     const winningWord = isWinningWord(currentGuess, currentSolution, settings);
+    const roundKey = mode === "daily"
+      ? `daily-${dailyVariantKey}-${getTodayString()}`
+      : mode === "challenge"
+        ? `challenge-${dailyVariantKey}-${toStorageIdentifier(currentSolution)}`
+        : `infinite-${dailyVariantKey}-${infiniteGameId}`;
 
     setTimeout(() => {
       setRevealingRowIndex(undefined);
@@ -765,12 +773,14 @@ function Game({
           completeDailyGame(dailyVariantKey, true, newGuesses.length, currentSolution);
         }
         recordStatsResult(true, newGuesses.length);
+        recordCompletedRound(roundKey);
         setIsGameWon(true);
       } else if (newGuesses.length >= MAX_GUESSES) {
         if (mode === "daily") {
           completeDailyGame(dailyVariantKey, false, newGuesses.length, currentSolution);
         }
         recordStatsResult(false, newGuesses.length);
+        recordCompletedRound(roundKey);
         setIsGameLost(true);
       }
     }, 600);
@@ -784,9 +794,12 @@ function Game({
     settings,
     wordLength,
     dailyVariantKey,
+    infiniteGameId,
+    recordCompletedRound,
   ]);
 
   const handleNewGame = useCallback(() => {
+    triggerPendingPopunder();
     if (mode === "challenge") {
       if (typeof window !== "undefined") {
         const key = getPrimaryStorageKey("challenge", settings, toStorageIdentifier(currentSolution));
@@ -806,7 +819,7 @@ function Game({
     }
 
     void startInfiniteGame(settings);
-  }, [currentSolution, mode, settings, startInfiniteGame]);
+  }, [currentSolution, mode, settings, startInfiniteGame, triggerPendingPopunder]);
 
   const handleModeSelection = (selected: "daily" | "infinite") => {
     if (mode === "challenge") {
