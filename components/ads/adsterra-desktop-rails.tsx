@@ -10,7 +10,6 @@ function Banner({ placement, production }: { placement: keyof typeof BANNER_UNIT
   // Isolate parser-inserted scripts and each banner's atOptions global.
   const srcDoc = `<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;padding:0;overflow:hidden}</style></head><body><script>atOptions=${JSON.stringify({ ...unit, format: "iframe", params: {} })};</script><script src="https://bicea.org/22/${unit.key}"></script></body></html>`;
   return <aside aria-label="Werbung" data-ad-placement={placement} style={{ width: unit.width }}>
-    <p className="mb-1 text-center text-[10px] uppercase tracking-wider text-muted-foreground">Werbung</p>
     {production ? <iframe title={`Werbung ${unit.width}×${unit.height}`} width={unit.width} height={unit.height} srcDoc={srcDoc}
       sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox allow-forms" referrerPolicy="strict-origin-when-cross-origin" className="block border-0" /> :
       <div data-ad-placeholder style={{ width: unit.width, height: unit.height }} className="flex items-center justify-center rounded border border-dashed bg-muted text-xs text-muted-foreground">Werbung · {unit.width}×{unit.height}</div>}
